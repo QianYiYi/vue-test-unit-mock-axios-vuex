@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sample.vue axios store 1`] = `
+<div class="book-index">
+  <div class="header">
+    <div class="container">
+      <div class="header-height"><a class="navbar-brand"></a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link">书籍</a></li>
+          <li class="nav-item dropdown people-content"><a class="nav-link dropdown-toggle nav-link2">
+              人员模块
+            </a>
+            <div aria-labelledby="navbarDropdown" class="dropdown-menu display-none"><a>公司成员</a> <a>论文查询</a> <a>专利查询</a> <a>照片墙</a></div>
+          </li>
+        </ul> <a class="sign-up">登陆</a>
+      </div>
+    </div>
+  </div>
+  <div class="container container-size"><br> <br>
+    <form class="el-form el-form--inline">
+      <div class="el-form-item" style="width: 100px;">
+        <!---->
+        <div class="el-form-item__content">
+          <div class="el-select">
+            <!---->
+            <div class="el-input el-input--suffix">
+              <!----><input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+              <!----><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----><!----><!----><!----><!----></span>
+              <!----></span>
+              <!---->
+              <!---->
+            </div>
+            <transition-stub name="el-zoom-in-top">
+              <div class="el-select-dropdown el-popper" style="display: none;">
+                <div class="el-scrollbar" style="">
+                  <div class="el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default">
+                    <ul class="el-scrollbar__view el-select-dropdown__list">
+                      <!---->
+                      <li class="el-select-dropdown__item selected"><span>在录</span></li>
+                      <li class="el-select-dropdown__item"><span>过期</span></li>
+                      <li class="el-select-dropdown__item"><span>未过期</span></li>
+                    </ul>
+                  </div>
+                  <div class="el-scrollbar__bar is-horizontal">
+                    <div class="el-scrollbar__thumb" style="transform: translateX(0%); webkit-transform: translateX(0%);"></div>
+                  </div>
+                  <div class="el-scrollbar__bar is-vertical">
+                    <div class="el-scrollbar__thumb" style="transform: translateY(0%); webkit-transform: translateY(0%);"></div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+            </transition-stub>
+          </div>
+          <transition-stub name="el-zoom-in-top">
+            <!---->
+          </transition-stub>
+        </div>
+      </div>
+      <div class="el-form-item">
+        <!---->
+        <div class="el-form-item__content">
+          <div class="el-input">
+            <!----><input type="text" autocomplete="off" placeholder="请输入书名关键字" class="el-input__inner">
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+          </div>
+          <transition-stub name="el-zoom-in-top">
+            <!---->
+          </transition-stub>
+        </div>
+      </div>
+      <div class="el-form-item">
+        <!---->
+        <div class="el-form-item__content">
+          <div class="el-input">
+            <!----><input type="text" autocomplete="off" placeholder="请输入购买者名称" class="el-input__inner">
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+          </div>
+          <transition-stub name="el-zoom-in-top">
+            <!---->
+          </transition-stub>
+        </div>
+      </div>
+      <div class="el-form-item">
+        <!---->
+        <div class="el-form-item__content"><button type="button" class="el-button el-button--primary">
+            <!---->
+            <!----><span>搜索</span>
+          </button>
+          <transition-stub name="el-zoom-in-top">
+            <!---->
+          </transition-stub>
+        </div>
+      </div>
+      <!---->
+    </form>
+    <div class="el-table el-table--fit el-table--striped el-table--border el-table--scrollable-x el-table--enable-row-hover el-table--enable-row-transition" style="width: 100%;">
+      <div class="hidden-columns">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="el-table__header-wrapper">
+        <table cellspacing="0" cellpadding="0" border="0" class="el-table__header" style="width: 530px;">
+          <colgroup>
+            <col name="el-table_1_column_1" width="50">
+            <col name="el-table_1_column_2" width="80">
+            <col name="el-table_1_column_3" width="50">
+            <col name="el-table_1_column_4" width="100">
+            <col name="el-table_1_column_5" width="100">
+            <col name="el-table_1_column_6" width="150">
+          </colgroup>
+          <thead class="">
+            <tr class="">
+              <th colspan="1" rowspan="1" class="el-table_1_column_1     is-leaf">
+                <div class="cell">序号</div>
+              </th>
+              <th colspan="1" rowspan="1" class="el-table_1_column_2     is-leaf">
+                <div class="cell">书名</div>
+              </th>
+              <th colspan="1" rowspan="1" class="el-table_1_column_3     is-leaf">
+                <div class="cell">册数</div>
+              </th>
+              <th colspan="1" rowspan="1" class="el-table_1_column_4     is-leaf">
+                <div class="cell">购买者</div>
+              </th>
+              <th colspan="1" rowspan="1" class="el-table_1_column_5     is-leaf">
+                <div class="cell">借记人</div>
+              </th>
+              <th colspan="1" rowspan="1" class="el-table_1_column_6     is-leaf">
+                <div class="cell">购买日期</div>
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="el-table__body-wrapper is-scrolling-left">
+        <table cellspacing="0" cellpadding="0" border="0" class="el-table__body" style="width: 530px;">
+          <colgroup>
+            <col name="el-table_1_column_1" width="50">
+            <col name="el-table_1_column_2" width="80">
+            <col name="el-table_1_column_3" width="50">
+            <col name="el-table_1_column_4" width="100">
+            <col name="el-table_1_column_5" width="100">
+            <col name="el-table_1_column_6" width="150">
+          </colgroup>
+          <tbody>
+            <tr class="el-table__row">
+              <td rowspan="1" colspan="1" class="el-table_1_column_1  ">
+                <div class="cell"><span>11</span></div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_2  ">
+                <div class="cell">w_11</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_3  ">
+                <div class="cell">1</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_4  ">
+                <div class="cell">华松</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_5  ">
+                <div class="cell">周恩策</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_6  ">
+                <div class="cell">2021/02/28</div>
+              </td>
+            </tr>
+            <tr class="el-table__row el-table__row--striped">
+              <td rowspan="1" colspan="1" class="el-table_1_column_1  ">
+                <div class="cell"><span>12</span></div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_2  ">
+                <div class="cell">w_12</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_3  ">
+                <div class="cell">1</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_4  ">
+                <div class="cell">华松</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_5  ">
+                <div class="cell">周恩策</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_6  ">
+                <div class="cell">2021/02/28</div>
+              </td>
+            </tr>
+            <tr class="el-table__row">
+              <td rowspan="1" colspan="1" class="el-table_1_column_1  ">
+                <div class="cell"><span>13</span></div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_2  ">
+                <div class="cell">w_13</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_3  ">
+                <div class="cell">1343</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_4  ">
+                <div class="cell">华松</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_5  ">
+                <div class="cell">周恩策</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_6  ">
+                <div class="cell">2021/02/28</div>
+              </td>
+            </tr>
+            <tr class="el-table__row el-table__row--striped">
+              <td rowspan="1" colspan="1" class="el-table_1_column_1  ">
+                <div class="cell"><span>14</span></div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_2  ">
+                <div class="cell">were</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_3  ">
+                <div class="cell">123123</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_4  ">
+                <div class="cell">华松</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_5  ">
+                <div class="cell">周恩策</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_6  ">
+                <div class="cell">2021/02/28</div>
+              </td>
+            </tr>
+            <tr class="el-table__row">
+              <td rowspan="1" colspan="1" class="el-table_1_column_1  ">
+                <div class="cell"><span>15</span></div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_2  ">
+                <div class="cell">wer</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_3  ">
+                <div class="cell">1322</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_4  ">
+                <div class="cell">华松</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_5  ">
+                <div class="cell">周恩策</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_6  ">
+                <div class="cell">2021/02/28</div>
+              </td>
+            </tr>
+            <tr class="el-table__row el-table__row--striped">
+              <td rowspan="1" colspan="1" class="el-table_1_column_1  ">
+                <div class="cell"><span>16</span></div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_2  ">
+                <div class="cell">wer</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_3  ">
+                <div class="cell">12</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_4  ">
+                <div class="cell">华松</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_5  ">
+                <div class="cell">周恩策</div>
+              </td>
+              <td rowspan="1" colspan="1" class="el-table_1_column_6  ">
+                <div class="cell">2021/02/28</div>
+              </td>
+            </tr>
+            <!---->
+          </tbody>
+        </table>
+        <!---->
+        <!---->
+      </div>
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <div class="el-table__column-resize-proxy" style="display: none;"></div>
+      <div class="el-loading-mask" style="display: none;">
+        <div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular">
+            <circle cx="50" cy="50" r="20" fill="none" class="path"></circle>
+          </svg>
+          <!---->
+        </div>
+      </div>
+    </div> <br>
+    <div class="el-pagination is-background"><button type="button" class="btn-prev"><i class="el-icon el-icon-arrow-left"></i></button>
+      <ul class="el-pager">
+        <li class="number">1</li>
+        <!---->
+        <!---->
+        <li class="number active">2</li>
+      </ul><button type="button" class="btn-next" disabled="disabled"><i class="el-icon el-icon-arrow-right"></i></button><span class="el-pagination__jump">前往<div class="el-input el-pagination__editor is-in-pagination"><!----><input type="number" autocomplete="off" min="1" max="2" class="el-input__inner"><!----><!----><!----><!----></div>页</span>
+    </div>
+  </div>
+</div>
+`;
