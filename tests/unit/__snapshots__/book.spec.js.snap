@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Sample.vue axios store 1`] = `
+exports[`BookIndex.vue axios store 1`] = `
 <div class="book-index">
   <div class="header">
     <div class="container">

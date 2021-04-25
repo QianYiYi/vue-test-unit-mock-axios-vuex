@@ -1,7 +1,7 @@
 import { mount, createLocalVue, RouterLinkStub} from "@vue/test-utils";
 
 
-import Sample from "@/views/BookIndex.vue"; 
+import BookIndex from "@/views/BookIndex.vue"; 
 
 import mockAxios from "axios";
 //axios 接口文件
@@ -18,7 +18,7 @@ localVue.use(ElementUI)
 //模拟Header里面的this.$route.path
 const routes = {
    path: '/test',
-   component: Sample, 
+   component: BookIndex, 
 }; 
 //模拟 this.$router.push ，（暂时未用到）
 const routertest= {
@@ -27,7 +27,7 @@ const routertest= {
  
 const booklist = api  
 
-describe("Sample.vue", () => {
+describe("BookIndex.vue", () => {
   //模拟返回的数据
   const response = {
     data:{
@@ -54,7 +54,7 @@ describe("Sample.vue", () => {
  //模拟调用的axios接口
   mockAxios.get.mockReturnValue(Promise.resolve(response));
 
-  const wrapper = mount(Sample, {
+  const wrapper = mount(BookIndex, {
     sync: false,
     localVue, 
     // router,          
