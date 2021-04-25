@@ -99,8 +99,7 @@ export default {
       //     params.searchBook = this.bookName
       //     params.searchBuyer = this.bookBuyer 
       this.AUTH_SIGNIN({user:this.formInline3.user.trim(),password: this.formInline3.password.trim()})
-      .then( (res) => { 
-      alert(JSON.stringify(res))
+      .then( (res) => {  
           if(this.$route.query.url == undefined){
             this.$router.push('/book/index')
           }else {
@@ -131,15 +130,7 @@ export default {
       //     params.searchBuyer = this.bookBuyer
        
       this.$api.sign.signUp( this.formInline2 )
-      .then(res => {
-          console.log(res) 
-                //  if(this.prevUrl){
-                //    this.$route.push(this.$route.query.redirect)
-                //  }else {
-                //    this.$route.push('/book/index')
-                //  }
-        
-      })
+    
       .catch(error => console.log("刚开始就出错了,,,,", error)
       )
     },
